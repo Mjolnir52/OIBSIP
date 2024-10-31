@@ -1,0 +1,162 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Section */
+.hero-section {
+    background: #f3e8de;
+    text-align: center;
+    padding: 60px 20px;
+    color: #333;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #1dbf73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.money-back {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Features Section */
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.feature img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-button {
+    padding: 10px 20px;
+    background-color: #1dbf73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Image Adjustments for Consistency */
+.feature img, .advantage img {
+    width: 150px;
+    height: 100px; 
+    border-radius: 10px; 
+    margin-bottom: 50px; 
+}
+
+/* Additional adjustments for larger map image in servers section */
+.servers-section img {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 20px auto;
+    display: block; 
+    border-radius: 10px; 
+}
+
+
+/* Advantages Section */
+.advantages-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fafafa;
+}
+
+.advantage {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.advantage img {
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.advantage h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+/* Servers Section */
+.servers-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f0f0;
+}
+
+.server-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.server-stats p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.servers-section img {
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
